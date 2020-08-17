@@ -1,0 +1,23 @@
+{
+  "name": "jesuslpm.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "node ./node_modules/live-server/live-server.js --no-browser",
+    "http-server": "http-server ./ -p 8086"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesuslpm/jesuslpm.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesuslpm/jesuslpm.github.io/issues"
+  },
+  "homepage": "https://github.com/jesuslpm/jesuslpm.github.io#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
